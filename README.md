@@ -89,7 +89,3 @@ Example scenario at runtime:
 
 ```bash
 VirtualPetGame.java
-
-
-```bash
-java VirtualPetGame ```
