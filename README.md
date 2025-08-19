@@ -42,19 +42,18 @@ While it takes the form of a small game, its purpose is to **demonstrate softwar
 
 ## 📸 Demonstration (Views)
 
-Add screenshots in a folder named **`screenshots/`** and display them here. Examples:  
-
 - **Main Menu**  
-  ![Main Menu](screenshots/main_menu.png)  
+<img width="602" height="282" alt="main-menu" src="https://github.com/user-attachments/assets/e4c52b41-cf10-41e1-ada1-7ee18bf216d6" />
 
 - **Pet Status View**  
-  ![Pet Status](screenshots/status.png)  
+ <img width="602" height="281" alt="pet-stus" src="https://github.com/user-attachments/assets/1ed10b19-586d-4f23-94fd-3bf456b466dd" />
 
-- **Game Status Overview**  
-  ![Game Status](screenshots/game_status.png)  
+
+- **Pet Interaction**  
+<img width="602" height="391" alt="interaction-play" src="https://github.com/user-attachments/assets/af97d017-297d-4725-a395-7264c91dcdd6" />
 
 - **Pet Reset Example**  
-  ![Pet Reset](screenshots/reset.png)  
+<img width="602" height="311" alt="pet-dying" src="https://github.com/user-attachments/assets/204e1516-70a5-4c80-b1b8-50662f0fd393" />
 
 ---
 
@@ -89,7 +88,7 @@ Example scenario at runtime:
 3. Open a terminal or command prompt inside the folder.  
 4. Compile the code using:  
 
-   ```bash
+```bash
    javac VirtualPetGame.java
    
 Run the program using:
