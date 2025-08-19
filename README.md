@@ -80,7 +80,6 @@ Example scenario at runtime:
 <img width="1014" height="728" alt="Object Diagram" src="https://github.com/user-attachments/assets/9b49fbe8-167a-4d1d-818e-635225292997" />
 
 ---
-
 ## 🛠️ How to Run the Program
 
 1. Install **Java (version 8 or higher)**.  
@@ -89,8 +88,8 @@ Example scenario at runtime:
 4. Compile the code using:
 
 ```bash
-javac VirtualPetGame.java ```
-Run the program using:
+javac VirtualPetGame.java
+
 
 ```bash
 java VirtualPetGame ```
