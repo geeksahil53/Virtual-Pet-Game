@@ -68,8 +68,8 @@ Shows the structure of the system:
 - `Dog`, `Cat`, `Fish` (subclasses)  
 - `User` (manages multiple pets)  
 - `VirtualPetGame` (main controller)  
-
-![Class Diagram](diagrams/class_diagram.png)  
+ 
+<img width="1174" height="1013" alt="UML Class Diagram" src="https://github.com/user-attachments/assets/5dcbd409-4562-44b0-920b-d722828bd68e" />
 
 ---
 
@@ -78,19 +78,7 @@ Example scenario at runtime:
 - User "Alice" owns a Dog and a Cat  
 - User "Bob" owns a Fish  
 
-![Object Diagram](diagrams/object_diagram.png)  
-
----
-
-### 3. Use Case Diagram  
-Illustrates interactions between the **User** and the **System**:  
-- Adopt Pet  
-- Feed Pet  
-- Play with Pet  
-- Rest Pet  
-- View Game Status  
-
-![Use Case Diagram](diagrams/use_case.png)  
+<img width="1014" height="728" alt="Object Diagram" src="https://github.com/user-attachments/assets/9b49fbe8-167a-4d1d-818e-635225292997" />
 
 ---
 
@@ -103,9 +91,8 @@ Illustrates interactions between the **User** and the **System**:
 
    ```bash
    javac VirtualPetGame.java
+   
 Run the program using:
 
-bash
-Copy
-Edit
+``` bash
 java VirtualPetGame
