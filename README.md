@@ -88,10 +88,9 @@ Example scenario at runtime:
 3. Open a terminal or command prompt inside the folder.  
 4. Compile the code using:  
 
-```bash
+  ```bash
    javac VirtualPetGame.java
-   
-Run the program using:
+   Run the program using:
 
-``` bash
+  ``` bash
 java VirtualPetGame
