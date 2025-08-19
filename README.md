@@ -47,11 +47,6 @@ Screenshots to include:
 - Game Status overview  
 - Example of a pet dying/resetting  
 
-Save screenshots in a folder called **`/screenshots/`** and embed them here:
-
-```markdown
-![Main Menu](screenshots/main_menu.png)
-![Pet Status](screenshots/status.png)
 🛠️ Setup & Run
 1. Clone repository
 bash
@@ -65,9 +60,7 @@ Copy
 Edit
 javac VirtualPetGame.java
 3. Run the program
-bash
-Copy
-Edit
+   
 java VirtualPetGame
 📂 Project Structure
 bash
