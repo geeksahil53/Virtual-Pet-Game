@@ -89,10 +89,8 @@ Example scenario at runtime:
 4. Compile the code using:
 
 ```bash
-javac VirtualPetGame.java
+javac VirtualPetGame.java ```
 Run the program using:
 
-bash
-Copy
-Edit
-java VirtualPetGame
+```bash
+java VirtualPetGame ```
