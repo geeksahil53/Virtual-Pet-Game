@@ -86,11 +86,13 @@ Example scenario at runtime:
 1. Install **Java (version 8 or higher)**.  
 2. Download or clone the project folder.  
 3. Open a terminal or command prompt inside the folder.  
-4. Compile the code using:  
+4. Compile the code using:
 
-  ```bash
-   javac VirtualPetGame.java
-   Run the program using:
+```bash
+javac VirtualPetGame.java
+Run the program using:
 
-  ``` bash
+bash
+Copy
+Edit
 java VirtualPetGame
