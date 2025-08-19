@@ -1,83 +1,147 @@
-# 🎓 Virtual Pet Game (Java Console Application)
+🎓 Virtual Pet Game (Java Console Application)
 
-This project is a **console-based application in Java** that demonstrates the use of **Object-Oriented Programming (OOP) principles, input handling, and state management**.  
-Although presented as a small "virtual pet game", its primary purpose is to showcase **programming and design skills**.
+This project is a console-based Java application that simulates a virtual pet management system.
+While it takes the form of a small game, its purpose is to demonstrate software development skills such as:
 
----
+Object-Oriented Programming (OOP)
 
-## 🔑 Technologies & Concepts Used
+Class design and inheritance
 
-- **Java (JDK 8+)**
-- **Object-Oriented Programming**
-  - Inheritance (e.g., `Dog`, `Cat`, `Fish` extend `Pet`)
-  - Encapsulation (private fields with getters/setters)
-  - Polymorphism (common methods across different pets)
-- **Class design**: Abstract base class (`Pet`) and specialised subclasses
-- **Data validation**: Preventing invalid inputs and keeping stats within bounds
-- **Game loop & state management**:
-  - Updating pet stats when actions are taken
-  - Resetting pets when health reaches 0
-- **Console UI with ANSI colour codes** for a more user-friendly display
-- **User and entity management**: multiple users, each with up to 3 pets
+Data validation and state management
 
----
+Console-based user interfaces with ANSI colours
 
-## 📖 Features
+Software design through UML diagrams
 
-- **Multiple users** (each can adopt up to 3 pets)
-- **Pet adoption** (Dog, Cat, Fish)
-- **Pet attributes**:
-  - Hunger, Happiness, Health, Energy
-- **Actions**:
-  - Feed (reduces hunger)
-  - Play (increases happiness, reduces energy)
-  - Rest (restores energy, boosts health)
-- **Automatic state updates** (e.g., hunger increases over time)
-- **Game status dashboard** for an overview of all users and pets
-- **Death & reset**: Pets are reset if their health reaches zero
+🔑 Technologies & Concepts Used
 
----
+Java (JDK 8+)
 
-## 📸 Demonstration (Views)
+Object-Oriented Programming (OOP)
 
-Screenshots to include:
-- Main Menu  
-- Adopt Pet menu  
-- Pet Status screen (with coloured attributes)  
-- Game Status overview  
-- Example of a pet dying/resetting  
+Inheritance (Dog, Cat, Fish extend Pet)
 
-🛠️ Setup & Run
-1. Clone repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/virtual-pet-game.git
-cd virtual-pet-game
-2. Compile the code
-bash
-Copy
-Edit
+Encapsulation (private fields with getters/setters)
+
+Polymorphism (common actions across pets)
+
+Game loop & state management
+
+Data validation (ensuring stats stay within limits)
+
+CLI UI design (colours, menus, user feedback)
+
+UML modelling (Class, Object, Use Case diagrams)
+
+📖 Features
+
+Multi-user support → each user can adopt up to 3 pets
+
+Pet adoption system → choose Dog, Cat, or Fish
+
+Pet attributes → Hunger, Happiness, Health, Energy
+
+Interactive actions:
+
+Feed → reduces hunger
+
+Play → increases happiness, reduces energy
+
+Rest → restores energy and improves health
+
+Automatic state updates (e.g., hunger increases naturally)
+
+Game Status dashboard → shows all users and pets
+
+Death & reset system → pets reset if health reaches zero
+
+Coloured console interface for better readability
+
+📸 Demonstration (Views)
+
+Add screenshots in a folder named screenshots/ and display them here. Examples:
+
+Main Menu
+
+
+Pet Status View
+
+
+Game Status Overview
+
+
+Pet Reset Example
+
+
+📊 UML Diagrams
+
+To document the design, UML diagrams are included:
+
+1. Class Diagram
+
+Shows the structure of the system:
+
+Pet (abstract class)
+
+Dog, Cat, Fish (subclasses)
+
+User (manages multiple pets)
+
+VirtualPetGame (main controller)
+
+2. Object Diagram
+
+Example scenario at runtime:
+
+User "Alice" owns a Dog and a Cat
+
+User "Bob" owns a Fish
+
+3. Use Case Diagram
+
+Illustrates interactions between the User and the System:
+
+Adopt Pet
+
+Feed Pet
+
+Play with Pet
+
+Rest Pet
+
+View Game Status
+
+🛠️ How to Run the Program
+
+Install Java (version 8 or higher).
+
+Download or clone the project folder.
+
+Open a terminal or command prompt inside the folder.
+
+Compile the code using:
 javac VirtualPetGame.java
-3. Run the program
-   
+
+Run the program using:
 java VirtualPetGame
+
 📂 Project Structure
-bash
-Copy
-Edit
 virtual-pet-game/
-│── VirtualPetGame.java   # Main Java file (contains all classes)
-│── README.md             # Documentation
-│── screenshots/          # Screenshots folder (add your own)
+│── VirtualPetGame.java     (Main Java file with all classes)
+│── README.md               (Project documentation)
+│── screenshots/            (Screenshots of the game)
+│── diagrams/               (UML diagrams: class, object, use case)
+
 🚀 Skills Demonstrated
-Problem solving: modelling a real-world scenario (pet care) into a system of objects and interactions.
 
-Code organisation: keeping responsibilities separate across User, Pet, and subclasses.
+Programming skills: Java, OOP, encapsulation, inheritance
 
-Input/output handling: managing console interactions with validation.
+Problem solving: Modelling real-world entities into a software system
 
-Game logic: balancing stats (hunger, health, energy) and consequences of actions.
+Design thinking: UML diagrams for planning & structure
 
-Presentation skills: CLI UI design with colour for readability.
+User interaction design: Creating a simple but clear CLI interface
 
+Game logic: Handling pet stats, updates, and resets
+
+Presentation skills: Screenshots, diagrams, and structured documentation
