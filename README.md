@@ -1,3 +1,5 @@
+:
+
 🎓 Virtual Pet Game (Java Console Application)
 
 This project is a console-based Java application that simulates a virtual pet management system.
